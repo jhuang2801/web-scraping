@@ -1,1 +1,4 @@
 # web-scraping
+## In this exercise, we used web scraping techniques to pull html data from a website using BeautifulSoup and splinter libraries. 
+### For part 1, the data from https://redplanetscience.com was pulled and transformed into a list consisting of "title" as the key, and "preview" as the value. 
+### In part 2, the data from https://data-class-mars-challenge.s3.amazonaws.com/Mars/index.html was extracted to create a dataframe to contain all data. Further examination of the weather included ranges of temperatures and atmospheric pressures per month on Mars. Each set of data (temperatures and atmospheric pressures) were plotted using bar graphs to show the greatest/lowest month for each variable examined. Lastly, the number of terrestrial days were estimated from Martian days by plotting the daily minimum temperature, and the resulting data was saved to a CSV file.
